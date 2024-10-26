@@ -7,10 +7,10 @@ tempo = 1000;
 
 void loop()
 {
-delay(tempo); // Aguarda 1000 milésimos de segundo
-digitalWrite(LED_BUILTIN, LOW); //Desliga o LED
-delay(tempo); // Aguarda 1000 milésimos de segundo
-digitalWrite(LED_BUILTIN, HIGH); //Liga o LED
+delay(tempo);
+digitalWrite(LED_BUILTIN, LOW);
+delay(tempo); 
+digitalWrite(LED_BUILTIN, HIGH);
 }
 void setup() {
 
